@@ -9,13 +9,63 @@ body {
 .main {
   flex: 1;
 }
-
+.card {
+  width: 45%;
+}
+.left {
+  float: left;
+  /* display: inline-block; */
+}
+.right {
+  float: right;
+  /* display: inline-block; */
+}
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 5%;
+}
 h1 {
   font-size: 5rem;
+}
+
+em {
+  color: rgb(172, 151, 29);
 }
 
 footer {
   text-align: right;
   color: midnightblue;
 }
+
+@media (max-width: 800px) {
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+  .logo {
+    width: 25%;
+  }
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 5%;
+  }
+  .left {
+    display: block;
+  }
+  .right {
+    display: block;
+  }
+  .tile-image {
+    display: block;
+    float: none;
+    width: 100%;
+    height: auto;
+  }
+}
+
+
+
+
 
