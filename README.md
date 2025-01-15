@@ -1,2 +1,2 @@
 # udemy-web-dev-bootcamp
- Tracking my progress on udemy web dev bootcamp course. Started uploading to Github at the end of section 8 (advanced CSS)
+ Tracking my progress on udemy web dev bootcamp course. Course link: https://www.udemy.com/course/the-complete-web-development-bootcamp/
